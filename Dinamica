@@ -1,0 +1,28 @@
+# Posicionar los barcos del jugador 2
+barco1Jug2 = [8, 11]
+for i in range(barco1Jug2[0], barco1Jug2[1] + 1):
+    tablero[8][i] = 1
+
+barco2Jug2 = [20, 25]
+for i in range(barco2Jug2[0], barco2Jug2[1] + 1): 
+    # Verificar que el índice no esté fuera del rango
+    if i < columnas:
+        tablero[20][i] = 1
+    else:
+        print("Error: Índice fuera del rango para barco2Jug2")
+
+barco3Jug2 = [11, 16]
+for i in range(barco3Jug2[0], barco3Jug2[1] + 1):
+    tablero[11][i] = 1
+
+barco4Jug2 = [25, 20]
+for i in range(barco4Jug2[0], barco4Jug2[1] + 1):
+    # Verificar que el índice no esté fuera del rango
+    if i < columnas:
+        tablero[25][i] = 1
+    else:
+        print("Error: Índice fuera del rango para barco4Jug2")
+
+barco5Jug2 = [13, 18]
+for i in range(barco5Jug2[0], barco5Jug2[1] + 1):
+    tablero[13][i] = 1
